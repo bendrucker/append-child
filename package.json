@@ -1,0 +1,39 @@
+{
+  "name": "append-child",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Append an HTML element to the DOM and return a removal function",
+  "license": "MIT",
+  "repository": "bendrucker/append-child",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js && browserify test.js | tape-run"
+  },
+  "keywords": [
+    "html",
+    "dom",
+    "append",
+    "child",
+    "remove",
+    "appendChild",
+    "removeChild"
+  ],
+  "devDependencies": {
+    "browserify": "~13.0.1",
+    "standard": "^7.0.0",
+    "tape": "^4.0.0",
+    "tape-run": "~2.1.4",
+    "to-array": "~0.1.4"
+  },
+  "files": [
+    "index.js",
+    "test.js"
+  ],
+  "dependencies": {
+    "global": "~4.3.0"
+  }
+}
