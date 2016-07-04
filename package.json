@@ -1,7 +1,7 @@
 {
   "name": "append-child",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Append an HTML element to the DOM and return a removal function",
   "license": "MIT",
   "repository": "bendrucker/append-child",
