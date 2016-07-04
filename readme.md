@@ -17,10 +17,17 @@ var appendChild = require('append-child')
 var element = document.createElement('div')
 
 var remove = appendChild(element)
-//=> div appended to body
+//=> div appended to document.body
 
 remove()
 //=> div removed from body
+
+var parent = document.createElement('div')
+remove = appendChild(element, parent)
+//=> div appended to parent
+
+remove()
+//=> div removed from parent
 ```
 
 ## API
