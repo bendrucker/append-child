@@ -14,13 +14,25 @@ $ npm install --save append-child
 
 ```js
 var appendChild = require('append-child')
-var element = document.createElement('div')
+var div = document.createElement('div')
 
-var remove = appendChild(element)
-//=> div appended to body
+var removeDiv = appendChild(div)
+//=> by default, div is appended to body
 
-remove()
-//=> div removed from body
+removeDiv()
+//=> div is removed from body
+
+//----------------------------------------------------
+
+// you can also append to a custom element by passing the parent as a second argument...
+var parentDiv = document.createElement('div');
+var p = document.createElement('p');
+
+var removeP = appendChild(p, parentDiv);
+//=> p is appended to div
+
+removeP()
+//=> p is removed from div
 ```
 
 ## API
