@@ -1,4 +1,4 @@
-# append-child [![Build Status](https://travis-ci.org/bendrucker/append-child.svg?branch=master)](https://travis-ci.org/bendrucker/append-child)
+# append-child [![Build Status](https://travis-ci.org/bendrucker/append-child.svg?branch=master)](https://travis-ci.org/bendrucker/append-child) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/append-child.svg)](https://greenkeeper.io/)
 
 > Append an HTML element to the DOM and return a removal function
 
