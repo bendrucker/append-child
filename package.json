@@ -26,7 +26,7 @@
     "browserify": "~16.2.3",
     "standard": "^12.0.1",
     "tape": "^4.0.0",
-    "tape-run": "~4.0.0",
+    "tape-run": "~5.0.0",
     "to-array": "~0.1.4"
   },
   "files": [
